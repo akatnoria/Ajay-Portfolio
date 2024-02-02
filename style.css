@@ -33,7 +33,24 @@ a,
 }
 
 /* DESKTOP NAV */
+.nav-box{
+  display: flex;
 
+}
+.toggle-btn{
+  position: fixed;
+  right: 40px;
+  top: 40px;
+  background: none;
+  border: none;
+  margin-left: 25px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all .2s;
+}
+.toggle-btn:hover{
+  font-size: 26px;
+}
 nav,
 .nav-links {
   display: flex;
@@ -375,12 +392,14 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  /* width: 90%;
+  height: 90%; */
+  width: 25rem;
+  height: 20rem;
 }
 
 .project-img:hover{
-  transform: scale(1.2);
+  transform: scale(1.05);
 	transition: transform .3s linear;
 }
 
